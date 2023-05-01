@@ -1,0 +1,218 @@
+# Author: github.com/yusuphgammut
+#
+# ==========================================================
+# INTERFACE
+# These scopes are used for theming the editor interface.
+# ==========================================================
+
+"ui.background" = { bg = "bg10" } # Default background color.
+"ui.background.separator" = { fg = "umber" } # Picker separator below input line.
+"ui.window" = { fg = "bg10", bg = "bg00" } # Window border between splits.
+"ui.gutter" = { fg = "nightfog" } # Left gutter for diagnostics and breakpoints.
+
+"ui.text" = { fg = "mist" } # Default text color.
+"ui.text.focus" = { fg = "amber", bg = "bg20" } # Selection highlight in buffer-picker or file-picker.
+"ui.text.inactive" = { fg = "steel" } # Same as ui.text but when the text is inactive (e.g. suggestions).
+"ui.text.info" = { fg = "tan" } # Info popup contents (space mode menu).
+
+"ui.cursor" = { fg = "khaki", bg = "terracota" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
+"ui.cursor.primary" = { fg = "bg00", bg = "khaki" } # The primary cursor when there are multiple (shift-c).
+"ui.cursor.match" = { fg = "amber", modifiers = ["bold"] } # The matching parentheses of that under the cursor.
+
+"ui.selection" = { bg = "bg35" } # All currently selected text.
+"ui.selection.primary" = { bg = "bg35" } # The primary selection when there are multiple.
+"ui.cursorline.primary" = { bg = "bg20" } # The line of the primary cursor (if cursorline is enabled).
+"ui.cursorline.secondary" = { bg = "bg15" } # The lines of any other cursors (if cursorline is enabled).
+"ui.cursorcolumn.primary" = { bg = "bg20" } # The column of the primary cursor (if cursorcolumn is enabled).
+"ui.cursorcolumn.secondary" = { bg = "bg15" } # The columns of any other cursors (if cursorcolumn is enabled).
+
+"ui.linenr" = { fg = "nightfog" } # Line numbers.
+"ui.linenr.selected" = { fg = "mist", modifiers = ["bold"] } # Current line number.
+
+"ui.virtual" = { } # Namespace for additions to the editing area.
+"ui.virtual.ruler" = { bg = "bg15" } # Vertical rulers (colored columns in editing area).
+"ui.virtual.whitespace" = { fg = "bg40" } # Whitespace markers in editing area.
+"ui.virtual.indent-guide" = { fg = "bg40" } # Vertical indent width guides.
+"ui.virtual.inlay-hint" = { fg = "slate" } # Default style for inlay hints of all kinds.
+"ui.virtual.wrap" = { fg = "nightfog" } # Soft-wrap indicator (see the editor.soft-wrap config).
+
+"ui.statusline" = { fg = "mist", bg = "bg00" } # Status line.
+"ui.statusline.inactive" = { fg = "nightfog", bg = "bg15" } # Status line in unfocused windows.
+"ui.statusline.normal" = { fg = "bg00", bg = "turquoise", modifiers = ["bold"] } # Statusline mode during normal mode (only if editor.color-modes is enabled).
+"ui.statusline.insert" = { fg = "bg00", bg = "amber", modifiers = ["bold"] } # Statusline mode during insert mode (only if editor.color-modes is enabled).
+"ui.statusline.select" = { fg = "bg00", bg = "lavender", modifiers = ["bold"] } # Statusline mode during select mode (only if editor.color-modes is enabled).
+
+"ui.help" = { fg = "mist", bg = "bg25" } # Description box for commands.
+"ui.menu" = { fg = "mist", bg = "bg25" } # Code and command completion menus.
+"ui.menu.selected" = { fg = "amber", bg = "bg45" } # Selected autocomplete item.
+"ui.menu.scroll"	= { fg = "amber", bg = "bg45" } # Scroll line, fg sets thumb color, bg sets track color of scrollbar.
+"ui.highlight"	= { bg = "bg45" } # Highlighted lines in the picker preview.
+
+"ui.popup" = { fg = "mist", bg = "bg25" } # Documentation popups (space-k).
+"ui.popup.info" = { fg = "terracota", bg = "bg25" } # Info popups box (space mode menu).
+
+# TBD.
+# "ui.debug.breakpoint" = { } # Breakpoint indicator, found in the gutter.
+# "ui.debug.active" = { } # Indicator for the line at which debugging execution is paused at, found in the gutter.
+# "ui.highlight.frameline" = { } # Line at which debugging execution is paused at.
+
+# ==========================================================
+
+# DIAGNOSTICS
+# Bla bla bla.
+# ==========================================================
+
+"warning" = { fg = "amber" } # Diagnostics warning (gutter)
+"error" = { fg = "cherry" } # Diagnostics error (gutter)
+"info" = { fg = "sky" } # Diagnostics info (gutter)
+"hint" = { fg = "forest" } # Diagnostics hint (gutter)
+
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } } #	Diagnostics warning (editing area)
+"diagnostic.error" = { underline = { color = "cherry", style = "curl" } } #	Diagnostics error (editing area)
+"diagnostic.info" = { underline = { color = "sky", style = "curl" } } #	Diagnostics info (editing area)
+"diagnostic.hint" = { underline = { color = "forest", style = "curl" } } #	Diagnostics hint (editing area)
+
+# ==========================================================
+# DIFF
+# Version control changes.
+# ==========================================================
+
+"diff.plus" = "forest" # Additions.
+"diff.minus" = "red" # Deletions.
+"diff.delta" = "amber" # Modifications.
+"diff.delta.moved" = "sky" # Renamed or moved files.
+
+# ==========================================================
+# SYNTAX
+# These keys match tree-sitter scopes.
+# ==========================================================
+
+# Identifiers
+"variable" = { fg = "paramo" }  # Variable names.
+"variable.builtin" = { fg = "sky" } # Language reserved variables: `this`, `self`, `super`, etc.
+"variable.parameter" = { fg = "paramo" } # Function parameters.
+"variable.other.member" = { fg = "paramo" } # Fields of composite data types (e.g. structs, unions).
+
+"function" = { fg = "forest" }
+"function.builtin" = { fg = "sky" }
+"function.macro" = { fg = "forest" }
+"function.special" = { fg = "forest" } # Preprocessor function in C.
+"function.method" = { fg = "forest" } # Class / Struct methods.
+
+"tag" = { fg = "forest" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
+"attribute" = { fg = "paramo" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
+"namespace" = { fg = "lime" } # Namespace or module identifier.
+"constructor" = { fg = "lime" } # Constructor method for a class or struct.
+"label" = { fg = "olive" } # lifetimes - Loop labels, among other things.
+
+# Types
+"type" = { fg = "teal" } # Variable type, like integer or string, including program defined classes, structs etc..
+"type.builtin" = { fg = "teal" } # Primitive types of the language (string, int, float).
+"type.enum.variant" = { fg = "teal" }
+
+# Strings
+"string" = { fg = "arequipe" } # String literal.
+"string.regexp" = { fg = "arequipe" } # Regular expression literal.
+"string.special" = { fg = "arequipe", modifiers = ["bold"] } # Strings containing a path, etc.
+"string.special.url" = { fg = "arequipe", modifiers = ["bold"] } # String containing a web URL.
+
+# Keywords
+"keyword" = { fg = "amethyst" } # Language reserved keywords.
+"keyword.control" = { fg = "amethyst" } # Control keywords.
+"keyword.control.conditional" = { fg = "amethyst" } # `if`, `else`, `elif`.
+"keyword.control.repeat" = { fg = "amethyst" } # `for`, `while`, `loop`.
+"keyword.control.import" = { fg = "amethyst" } # `import`, `export` `use`.
+"keyword.control.return" = { fg = "amethyst" } # `return` in most languages.
+"keyword.control.exception" = { fg = "amethyst" } # `try`, `catch`, `raise`/`throw` and related.
+"keyword.operator" = { fg = "amethyst", modifiers = ["bold"] } # 'or', 'and', 'in'.
+"keyword.directive" = { fg = "amethyst" } # Preprocessor directives (#if in C...).
+"keyword.function" = { fg = "amethyst" } # The keyword to define a funtion: 'def', 'fun', 'fn'.
+"keyword.storage" = { fg = "denim" } # Keywords describing how things are stored
+"keyword.storage.type" = { fg = "denim" } #  The type of something, class, function, var, let, etc.
+"keyword.storage.modifier" = { fg = "denim" } # Storage modifiers like static, mut, const, ref, etc.
+
+# Constants
+"constant" = { fg = "paramo" } # Constant value
+"constant.builtin" = { fg = "orange" } # Special constants like `true`, `false`, `none`, etc.
+"constant.builtin.boolean" = { fg = "orange" } # True or False.
+"constant.character" = { fg = "orange" } # Constant of character type.
+"constant.character.escape" = { fg = "arequipe", modifiers = ["bold"] } # escape codes like \n.
+"constant.numeric"  = { fg = "orange" } # constant integer or float value.
+
+# Comments
+"comment" = { fg = "steel" } # This is a comment.
+"comment.block.documentation" = { fg = "steel", modifiers = ["bold"] } # Doc comments, e.g '///' in rust.
+
+# Punctuation
+"punctuation" = { fg = "tan" } # Any punctuation symbol.
+"punctuation.delimiter" = { fg = "terracota" } # Commas, colons or other delimiter depending on the language.
+"punctuation.bracket" = { fg = "umber" } # Parentheses, angle brackets, etc.
+"punctuation.special" = { fg = "slate" } # String interpolation brackets
+
+"operator" = { fg = "fuchia" } # Logical, mathematical, and other operators.
+"special" = { fg = "lavender" } # Special symbols e.g `?` in Rust, `...` in Hare.
+
+# Markup
+"markup.raw" = { fg = "lavender" } # Code block in Markdown.
+"markup.raw.inline" = { fg = "orange" } # `Inline code block` in Markdown.
+"markup.heading" = { fg = "amber", modifiers = ["bold"] }
+"markup.list" = { fg = "lavender", modifiers = ["bold"] }
+"markup.bold" = { fg = "orange", modifiers = ["bold"] }
+"markup.italic" = { fg = "pink" }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link" = { fg = "arequipe", modifiers = ["bold"] }
+"markup.quote" = { fg = "sky" }
+
+# ==========================================================
+# PALETTE
+# Collor palette variable definitions.
+# ==========================================================
+
+[palette]
+# Foreground primary palette (3-bit and 4-bit compatible).
+amethyst  = '#b877d9' # Magenta
+lavender  = '#d998d9' # Bright Magenta
+cherry    = '#cc5c5c' # Red
+fuchia    = '#d96db5' # Bright Red
+amber     = '#bfb369' # Yellow
+orange    = '#d69160' # Bright Yellow
+forest    = '#62b362' # Green
+lime      = '#95cc7a' # Bright Green
+teal      = '#3eb3b3' # Cyan
+turquoise = '#70cccc' # Bright Cyan
+denim     = '#8094ff' # Blue
+sky       = '#61b5f2' # Bright Blue
+
+# Foreground additional colors (greenish neutrals and browns).
+emerald    = '#4cbf87'
+paramo     = '#91a653'
+olive      = '#868c3e'
+lichen     = '#64a67a'
+slate      = '#518c83'
+steel      = '#517373'
+nightfog   = '#3d5866'
+
+arequipe   = '#b3905a'
+mist       = '#95a69e'
+khaki      = '#ccb1a3'
+tan        = '#99857a'
+terracota  = '#996b6b'
+umber      = '#806f4c'
+
+# Neutral backgrounds.
+bg00 = "#131d1f"
+bg05 = "#172326"
+bg10 = "#1c282e"
+bg15 = "#212d36"
+bg20 = "#25313d"
+bg25 = "#2a3545"
+bg30 = "#2f394d"
+bg35 = "#363e54"
+bg40 = "#3c415c"
+bg45 = "#414463"
+
+# Colored backgrounds.
+RedBg    = "#453434"
+YellowBg = "#403f37"
+GreenBg  = "#3c4841"
+blueBg   = "#334455"
