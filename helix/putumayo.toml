@@ -174,9 +174,9 @@ amethyst  = '#b877d9' # Magenta
 lavender  = '#d998d9' # Bright Magenta
 cherry    = '#cc5c5c' # Red
 fuchia    = '#d96db5' # Bright Red
-amber     = '#bfb369' # Yellow
+amber     = '#ccbe66' # Yellow
 orange    = '#d69160' # Bright Yellow
-forest    = '#62b362' # Green
+forest    = '#60bf60' # Green
 lime      = '#95cc7a' # Bright Green
 teal      = '#3eb3b3' # Cyan
 turquoise = '#70cccc' # Bright Cyan
@@ -184,10 +184,8 @@ denim     = '#8094ff' # Blue
 sky       = '#61b5f2' # Bright Blue
 
 # Foreground additional colors (greenish neutrals and browns).
-emerald    = '#4cbf87'
-paramo     = '#91a653'
-olive      = '#868c3e'
-lichen     = '#64a67a'
+paramo     = '#9cb359'
+olive      = '#93994d'
 slate      = '#518c83'
 steel      = '#517373'
 nightfog   = '#3d5866'
