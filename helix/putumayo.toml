@@ -88,21 +88,21 @@
 # ==========================================================
 
 # Identifiers
-"variable" = { fg = "paramo" }  # Variable names.
+"variable" = { fg = "lichen" }  # Variable names.
 "variable.builtin" = { fg = "sky" } # Language reserved variables: `this`, `self`, `super`, etc.
-"variable.parameter" = { fg = "paramo" } # Function parameters.
-"variable.other.member" = { fg = "paramo" } # Fields of composite data types (e.g. structs, unions).
+"variable.parameter" = { fg = "lichen" } # Function parameters.
+"variable.other.member" = { fg = "lichen" } # Fields of composite data types (e.g. structs, unions).
 
-"function" = { fg = "forest" }
+"function" = { fg = "paramo" }
 "function.builtin" = { fg = "sky" }
-"function.macro" = { fg = "forest" }
-"function.special" = { fg = "forest" } # Preprocessor function in C.
-"function.method" = { fg = "forest" } # Class / Struct methods.
+"function.macro" = { fg = "paramo" }
+"function.special" = { fg = "paramo" } # Preprocessor function in C.
+"function.method" = { fg = "paramo" } # Class / Struct methods.
 
-"tag" = { fg = "forest" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
+"tag" = { fg = "sky" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
 "attribute" = { fg = "paramo" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
-"namespace" = { fg = "lime" } # Namespace or module identifier.
-"constructor" = { fg = "lime" } # Constructor method for a class or struct.
+"namespace" = { fg = "forest" } # Namespace or module identifier.
+"constructor" = { fg = "paramo" } # Constructor method for a class or struct.
 "label" = { fg = "olive" } # lifetimes - Loop labels, among other things.
 
 # Types
@@ -132,11 +132,11 @@
 "keyword.storage.modifier" = { fg = "denim" } # Storage modifiers like static, mut, const, ref, etc.
 
 # Constants
-"constant" = { fg = "paramo" } # Constant value
+"constant" = { fg = "lichen" } # Constant value
 "constant.builtin" = { fg = "orange" } # Special constants like `true`, `false`, `none`, etc.
 "constant.builtin.boolean" = { fg = "orange" } # True or False.
 "constant.character" = { fg = "orange" } # Constant of character type.
-"constant.character.escape" = { fg = "arequipe", modifiers = ["bold"] } # escape codes like \n.
+"constant.character.escape" = { fg = "orange", modifiers = ["bold"] } # escape codes like \n.
 "constant.numeric"  = { fg = "orange" } # constant integer or float value.
 
 # Comments
@@ -153,14 +153,14 @@
 "special" = { fg = "lavender" } # Special symbols e.g `?` in Rust, `...` in Hare.
 
 # Markup
-"markup.raw" = { fg = "lavender" } # Code block in Markdown.
-"markup.raw.inline" = { fg = "orange" } # `Inline code block` in Markdown.
+"markup.raw" = { fg = "lichen" } # Code block in Markdown.
+"markup.raw.inline" = { fg = "olive" } # `Inline code block` in Markdown.
 "markup.heading" = { fg = "amber", modifiers = ["bold"] }
 "markup.list" = { fg = "lavender", modifiers = ["bold"] }
-"markup.bold" = { fg = "orange", modifiers = ["bold"] }
-"markup.italic" = { fg = "pink" }
-"markup.strikethrough" = { modifiers = ["crossed_out"] }
-"markup.link" = { fg = "arequipe", modifiers = ["bold"] }
+"markup.bold" = { fg = "cherry", modifiers = ["bold"] }
+"markup.italic" = { fg = "orange" }
+"markup.strikethrough" = { fg = "slate", modifiers = ["crossed_out"] }
+"markup.link" = { fg = "arequipe" }
 "markup.quote" = { fg = "sky" }
 
 # ==========================================================
@@ -170,27 +170,27 @@
 
 [palette]
 # Foreground primary palette (3-bit and 4-bit compatible).
-amethyst  = '#b877d9' # Magenta
-lavender  = '#d998d9' # Bright Magenta
-cherry    = '#cc5c5c' # Red
-fuchia    = '#d96db5' # Bright Red
-amber     = '#ccbe66' # Yellow
-orange    = '#d69160' # Bright Yellow
-forest    = '#60bf60' # Green
-lime      = '#95cc7a' # Bright Green
-teal      = '#3eb3b3' # Cyan
-turquoise = '#70cccc' # Bright Cyan
-denim     = '#8094ff' # Blue
-sky       = '#61b5f2' # Bright Blue
+amethyst  = '#c689e6' # Magenta
+lavender  = '#e6a0e6' # Bright Magenta
+cherry    = '#e67d7d' # Red
+fuchia    = '#e67ec2' # Bright Red
+amber     = '#d9cb77' # Yellow
+orange    = '#e6a172' # Bright Yellow
+forest    = '#82d982' # Green
+paramo    = '#bfd98c' # Bright Green
+teal      = '#66cccc' # Cyan
+turquoise = '#95e6e6' # Bright Cyan
+denim     = '#8c9eff' # Blue
+sky       = '#84c3f2' # Bright Blue
 
 # Foreground additional colors (greenish neutrals and browns).
-paramo     = '#9cb359'
-olive      = '#93994d'
+olive      = '#b3b359'
+lichen     = '#8fcca3'
 slate      = '#518c83'
 steel      = '#517373'
 nightfog   = '#3d5866'
 
-arequipe   = '#b3905a'
+arequipe   = '#bf9d68'
 mist       = '#95a69e'
 khaki      = '#ccb1a3'
 tan        = '#99857a'
