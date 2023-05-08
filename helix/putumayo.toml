@@ -1,5 +1,10 @@
+#  _____ _____ _____ _____ _____ _____ __ __ _____    \\   
+# |  _  |  |  |_   _|  |  |     |  _  |  |  |     |   (o>  
+# |   __|  |  | | | |  |  | | | |     |_   _|  |  | __(()__
+# |__|  |_____| |_| |_____|_|_|_|__|__| |_| |_____|   ||   
+
 # Author: github.com/yusuphgammut
-#
+
 # ==========================================================
 # INTERFACE
 # These scopes are used for theming the editor interface.
@@ -89,12 +94,12 @@
 
 # Identifiers
 "variable" = { fg = "lichen" }  # Variable names.
-"variable.builtin" = { fg = "sky" } # Language reserved variables: `this`, `self`, `super`, etc.
+"variable.builtin" = { fg = "forest" } # Language reserved variables: `this`, `self`, `super`, etc.
 "variable.parameter" = { fg = "lichen" } # Function parameters.
 "variable.other.member" = { fg = "lichen" } # Fields of composite data types (e.g. structs, unions).
 
 "function" = { fg = "paramo" }
-"function.builtin" = { fg = "sky" }
+"function.builtin" = { fg = "forest" }
 "function.macro" = { fg = "paramo" }
 "function.special" = { fg = "paramo" } # Preprocessor function in C.
 "function.method" = { fg = "paramo" } # Class / Struct methods.
@@ -183,19 +188,20 @@ turquoise = '#95e6e6' # Bright Cyan
 denim     = '#8c9eff' # Blue
 sky       = '#84c3f2' # Bright Blue
 
-# Foreground additional colors (greenish neutrals and browns).
-olive      = '#b3b359'
-lichen     = '#8fcca3'
-slate      = '#518c83'
-steel      = '#517373'
-nightfog   = '#3d5866'
-
-arequipe   = '#bf9d68'
-mist       = '#95a69e'
+# Foreground additional bright palette.
 khaki      = '#ccb1a3'
+mist       = '#95a69e'
+lichen     = '#8fcca3'
+olive      = '#b3b359'
+arequipe   = '#bf9d68'
+
+# Foreground additional dim palette.
 tan        = '#99857a'
 terracota  = '#996b6b'
 umber      = '#806f4c'
+slate      = '#518c83'
+steel      = '#517373'
+nightfog   = '#3d5866'
 
 # Neutral backgrounds.
 bg00 = "#131d1f"
