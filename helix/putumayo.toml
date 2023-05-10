@@ -11,7 +11,7 @@
 # ==========================================================
 
 "ui.background" = { bg = "bg10" } # Default background color.
-"ui.background.separator" = { fg = "umber" } # Picker separator below input line.
+"ui.background.separator" = { fg = "nightfog" } # Picker separator below input line.
 "ui.window" = { fg = "bg10", bg = "bg00" } # Window border between splits.
 "ui.gutter" = { fg = "nightfog" } # Left gutter for diagnostics and breakpoints.
 
@@ -22,7 +22,7 @@
 
 "ui.cursor" = { fg = "khaki", bg = "terracota" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
 "ui.cursor.primary" = { fg = "bg00", bg = "khaki" } # The primary cursor when there are multiple (shift-c).
-"ui.cursor.match" = { fg = "amber", modifiers = ["bold"] } # The matching parentheses of that under the cursor.
+"ui.cursor.match" = { fg = "beige", modifiers = ["bold"] } # The matching parentheses of that under the cursor.
 
 "ui.selection" = { bg = "bg35" } # All currently selected text.
 "ui.selection.primary" = { bg = "bg35" } # The primary selection when there are multiple.
@@ -43,9 +43,9 @@
 
 "ui.statusline" = { fg = "mist", bg = "bg00" } # Status line.
 "ui.statusline.inactive" = { fg = "nightfog", bg = "bg15" } # Status line in unfocused windows.
-"ui.statusline.normal" = { fg = "bg00", bg = "turquoise", modifiers = ["bold"] } # Statusline mode during normal mode (only if editor.color-modes is enabled).
+"ui.statusline.normal" = { fg = "bg00", bg = "lichen", modifiers = ["bold"] } # Statusline mode during normal mode (only if editor.color-modes is enabled).
 "ui.statusline.insert" = { fg = "bg00", bg = "amber", modifiers = ["bold"] } # Statusline mode during insert mode (only if editor.color-modes is enabled).
-"ui.statusline.select" = { fg = "bg00", bg = "lavender", modifiers = ["bold"] } # Statusline mode during select mode (only if editor.color-modes is enabled).
+"ui.statusline.select" = { fg = "bg00", bg = "amethyst", modifiers = ["bold"] } # Statusline mode during select mode (only if editor.color-modes is enabled).
 
 "ui.help" = { fg = "mist", bg = "bg25" } # Description box for commands.
 "ui.menu" = { fg = "mist", bg = "bg25" } # Code and command completion menus.
@@ -54,7 +54,7 @@
 "ui.highlight"	= { bg = "bg45" } # Highlighted lines in the picker preview.
 
 "ui.popup" = { fg = "mist", bg = "bg25" } # Documentation popups (space-k).
-"ui.popup.info" = { fg = "terracota", bg = "bg25" } # Info popups box (space mode menu).
+"ui.popup.info" = { fg = "tan", bg = "bg25" } # Info popups box (space mode menu).
 
 # TBD.
 # "ui.debug.breakpoint" = { } # Breakpoint indicator, found in the gutter.
@@ -64,18 +64,18 @@
 # ==========================================================
 
 # DIAGNOSTICS
-# Bla bla bla.
+# Diagnostic elements.
 # ==========================================================
 
 "warning" = { fg = "amber" } # Diagnostics warning (gutter)
 "error" = { fg = "cherry" } # Diagnostics error (gutter)
-"info" = { fg = "sky" } # Diagnostics info (gutter)
-"hint" = { fg = "forest" } # Diagnostics hint (gutter)
+"info" = { fg = "denim" } # Diagnostics info (gutter)
+"hint" = { fg = "amethyst" } # Diagnostics hint (gutter)
 
 "diagnostic.warning" = { underline = { color = "amber", style = "curl" } } #	Diagnostics warning (editing area)
 "diagnostic.error" = { underline = { color = "cherry", style = "curl" } } #	Diagnostics error (editing area)
-"diagnostic.info" = { underline = { color = "sky", style = "curl" } } #	Diagnostics info (editing area)
-"diagnostic.hint" = { underline = { color = "forest", style = "curl" } } #	Diagnostics hint (editing area)
+"diagnostic.info" = { underline = { color = "denim", style = "curl" } } #	Diagnostics info (editing area)
+"diagnostic.hint" = { underline = { color = "amethyst", style = "curl" } } #	Diagnostics hint (editing area)
 
 # ==========================================================
 # DIFF
@@ -85,7 +85,7 @@
 "diff.plus" = "forest" # Additions.
 "diff.minus" = "red" # Deletions.
 "diff.delta" = "amber" # Modifications.
-"diff.delta.moved" = "sky" # Renamed or moved files.
+"diff.delta.moved" = "denim" # Renamed or moved files.
 
 # ==========================================================
 # SYNTAX
@@ -104,11 +104,11 @@
 "function.special" = { fg = "paramo" } # Preprocessor function in C.
 "function.method" = { fg = "paramo" } # Class / Struct methods.
 
-"tag" = { fg = "sky" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
-"attribute" = { fg = "paramo" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
-"namespace" = { fg = "forest" } # Namespace or module identifier.
+"tag" = { fg = "amber" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
+"attribute" = { fg = "lichen" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
+"namespace" = { fg = "olive" } # Namespace or module identifier.
 "constructor" = { fg = "paramo" } # Constructor method for a class or struct.
-"label" = { fg = "olive" } # lifetimes - Loop labels, among other things.
+"label" = { fg = "denim" } # lifetimes - Loop labels, among other things.
 
 # Types
 "type" = { fg = "teal" } # Variable type, like integer or string, including program defined classes, structs etc..
@@ -149,24 +149,24 @@
 "comment.block.documentation" = { fg = "steel", modifiers = ["bold"] } # Doc comments, e.g '///' in rust.
 
 # Punctuation
-"punctuation" = { fg = "tan" } # Any punctuation symbol.
+"punctuation" = { fg = "umber" } # Any punctuation symbol.
 "punctuation.delimiter" = { fg = "terracota" } # Commas, colons or other delimiter depending on the language.
 "punctuation.bracket" = { fg = "umber" } # Parentheses, angle brackets, etc.
 "punctuation.special" = { fg = "slate" } # String interpolation brackets
 
 "operator" = { fg = "fuchia" } # Logical, mathematical, and other operators.
-"special" = { fg = "lavender" } # Special symbols e.g `?` in Rust, `...` in Hare.
+"special" = { fg = "fuchia" } # Special symbols e.g `?` in Rust, `...` in Hare.
 
 # Markup
 "markup.raw" = { fg = "lichen" } # Code block in Markdown.
 "markup.raw.inline" = { fg = "olive" } # `Inline code block` in Markdown.
 "markup.heading" = { fg = "amber", modifiers = ["bold"] }
-"markup.list" = { fg = "lavender", modifiers = ["bold"] }
+"markup.list" = { fg = "fuchia", modifiers = ["bold"] }
 "markup.bold" = { fg = "cherry", modifiers = ["bold"] }
 "markup.italic" = { fg = "orange" }
 "markup.strikethrough" = { fg = "slate", modifiers = ["crossed_out"] }
 "markup.link" = { fg = "arequipe" }
-"markup.quote" = { fg = "sky" }
+"markup.quote" = { fg = "teal" }
 
 # ==========================================================
 # PALETTE
@@ -175,37 +175,36 @@
 
 [palette]
 # Foreground primary palette (3-bit and 4-bit compatible).
-amethyst  = '#c689e6' # Magenta
-lavender  = '#e6a0e6' # Bright Magenta
-cherry    = '#e67d7d' # Red
-fuchia    = '#e67ec2' # Bright Red
-amber     = '#d9cb77' # Yellow
-orange    = '#e6a172' # Bright Yellow
-forest    = '#82d982' # Green
-paramo    = '#bfd98c' # Bright Green
-teal      = '#66cccc' # Cyan
-turquoise = '#95e6e6' # Bright Cyan
-denim     = '#8c9eff' # Blue
-sky       = '#84c3f2' # Bright Blue
+amethyst  = '#c689e6' # magenta
+cherry    = '#e67d7d' # red
+amber     = '#d9bc82' # yellow
+paramo    = '#b7cc8f' # green
+lichen    = '#8fccae' # cyan
+denim     = '#99a9ff' # blue
 
-# Foreground additional bright palette.
+nightfog  = '#3d5866' # black
+beige     = '#f2d2c2' # white
+
+# Alternative accent colors.
+fuchia    = '#d977b7'
+orange    = '#d99877'
+forest    = '#85cc85'
+teal      = '#70bccc'
+
+# Alternative neutral colors.
 khaki      = '#ccb1a3'
 mist       = '#95a69e'
-lichen     = '#8fcca3'
-olive      = '#b3b359'
-arequipe   = '#bf9d68'
-
-# Foreground additional dim palette.
+arequipe   = '#bfa173'
+olive      = '#b3b36b'
 tan        = '#99857a'
 terracota  = '#996b6b'
 umber      = '#806f4c'
 slate      = '#518c83'
 steel      = '#517373'
-nightfog   = '#3d5866'
 
 # Neutral backgrounds.
 bg00 = "#131d1f"
-bg05 = "#172326"
+bg05 = "#172226"
 bg10 = "#1c282e"
 bg15 = "#212d36"
 bg20 = "#25313d"
