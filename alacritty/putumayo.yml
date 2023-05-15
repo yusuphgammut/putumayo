@@ -1,0 +1,55 @@
+#  _____ _____ _____ _____ _____ _____ __ __ _____    \\   
+# |  _  |  |  |_   _|  |  |     |  _  |  |  |     |   (o>  
+# |   __|  |  | | | |  |  | | | |     |_   _|  |  | __(()__
+# |__|  |_____| |_| |_____|_|_|_|__|__| |_| |_____|   ||   
+
+# Author: github.com/yusuphgammut
+
+# Here we are defining a YAML anchor called "putumayo".
+schemes:
+  putumayo: &putumayo
+    primary:
+      background: '#1c282e' # bg10
+      foreground: '#95a69e' # mist
+    cursor:
+      text: '#131d1f' # bg00
+      cursor: '#ccb1a3' # khaki
+    vi_mode_cursor:
+      text: '#131d1f' # bg00
+      cursor: '#ccb1a3' # khaki
+    selection:
+      text: '#ccb1a3' # khaki
+      background: '#363e54' # bg35
+    search:
+      matches:
+        foreground: '#1c282e' # bg10
+        background: '#806f4c' # umber
+      focused_match:
+        foreground: '#131d1f' # bg00
+        background: '#f2d2c2' # beige
+    footer_bar:
+      foreground: '#131d1f' # bg00
+      background: '#806f4c' # umber
+    normal:
+      black: '#3d5866' # nightfog
+      magenta: '#c689e6' # amethyst
+      red: '#e67d7d' # cherry
+      yellow: '#d9d282' # amber
+      green: '#aecc8f' # paramo
+      cyan: '#8fccb8' # lichen
+      blue: '#99a9ff' # denim
+      white: '#f2d2c2' # beige
+    bright:
+      black: '#517373' # steel
+      magenta: '#d977b7' # fuchia
+      red: '#e67d7d' # cherry -- same as normal
+      yellow: '#d9916d' # orange
+      green: '#85cc85' # forest
+      cyan: '#70bccc' # teal
+      blue: '#99a9ff' # denim -- same as normal
+      white: '#ccb1a3' # khaki
+
+# Here we are applying the "putumayo" anchor to the `color` config property.
+colors: *putumayo
+
+# You can add the rest of your Alacritty config down here.

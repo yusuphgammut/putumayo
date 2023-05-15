@@ -50,8 +50,8 @@
 "ui.help" = { fg = "mist", bg = "bg25" } # Description box for commands.
 "ui.menu" = { fg = "mist", bg = "bg25" } # Code and command completion menus.
 "ui.menu.selected" = { fg = "amber", bg = "bg45" } # Selected autocomplete item.
-"ui.menu.scroll"	= { fg = "amber", bg = "bg45" } # Scroll line, fg sets thumb color, bg sets track color of scrollbar.
-"ui.highlight"	= { bg = "bg45" } # Highlighted lines in the picker preview.
+"ui.menu.scroll" = { fg = "amber", bg = "bg45" } # Scroll line, fg sets thumb color, bg sets track color of scrollbar.
+"ui.highlight" = { bg = "bg45" } # Highlighted lines in the picker preview.
 
 "ui.popup" = { fg = "mist", bg = "bg25" } # Documentation popups (space-k).
 "ui.popup.info" = { fg = "tan", bg = "bg25" } # Info popups box (space mode menu).
@@ -72,10 +72,11 @@
 "info" = { fg = "denim" } # Diagnostics info (gutter)
 "hint" = { fg = "amethyst" } # Diagnostics hint (gutter)
 
-"diagnostic.warning" = { underline = { color = "amber", style = "curl" } } #	Diagnostics warning (editing area)
-"diagnostic.error" = { underline = { color = "cherry", style = "curl" } } #	Diagnostics error (editing area)
-"diagnostic.info" = { underline = { color = "denim", style = "curl" } } #	Diagnostics info (editing area)
-"diagnostic.hint" = { underline = { color = "amethyst", style = "curl" } } #	Diagnostics hint (editing area)
+# Don't add fg and bg here in order to keep code's original highlights.
+"diagnostic.warning" = { bg = "yellowBg", underline = { color = "amber", style = "curl" } } # Diagnostics warning (editing area)
+"diagnostic.error" = { bg = "redBg", underline = { color = "cherry", style = "curl" } } # Diagnostics error (editing area)
+"diagnostic.info" = { bg = "blueBg", underline = { color = "denim", style = "curl" } } # Diagnostics info (editing area)
+"diagnostic.hint" = { bg = "magentaBg", underline = { color = "amethyst", style = "curl" } } # Diagnostics hint (editing area)
 
 # ==========================================================
 # DIFF
@@ -94,18 +95,18 @@
 
 # Identifiers
 "variable" = { fg = "lichen" }  # Variable names.
-"variable.builtin" = { fg = "forest" } # Language reserved variables: `this`, `self`, `super`, etc.
+"variable.builtin" = { fg = "amber" } # Language reserved variables: `this`, `self`, `super`, etc.
 "variable.parameter" = { fg = "lichen" } # Function parameters.
 "variable.other.member" = { fg = "lichen" } # Fields of composite data types (e.g. structs, unions).
 
 "function" = { fg = "paramo" }
-"function.builtin" = { fg = "forest" }
+"function.builtin" = { fg = "amber" }
 "function.macro" = { fg = "paramo" }
 "function.special" = { fg = "paramo" } # Preprocessor function in C.
 "function.method" = { fg = "paramo" } # Class / Struct methods.
 
-"tag" = { fg = "amber" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
-"attribute" = { fg = "lichen" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
+"tag" = { fg = "forest" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
+"attribute" = { fg = "olive" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
 "namespace" = { fg = "olive" } # Namespace or module identifier.
 "constructor" = { fg = "paramo" } # Constructor method for a class or struct.
 "label" = { fg = "denim" } # lifetimes - Loop labels, among other things.
@@ -177,9 +178,9 @@
 # Foreground primary palette (3-bit and 4-bit compatible).
 amethyst  = '#c689e6' # magenta
 cherry    = '#e67d7d' # red
-amber     = '#d9bc82' # yellow
-paramo    = '#b7cc8f' # green
-lichen    = '#8fccae' # cyan
+amber     = '#d9d282' # yellow
+paramo    = '#aecc8f' # green
+lichen    = '#8fccb8' # cyan
 denim     = '#99a9ff' # blue
 
 nightfog  = '#3d5866' # black
@@ -187,20 +188,20 @@ beige     = '#f2d2c2' # white
 
 # Alternative accent colors.
 fuchia    = '#d977b7'
-orange    = '#d99877'
+orange    = '#d9916d'
 forest    = '#85cc85'
 teal      = '#70bccc'
 
 # Alternative neutral colors.
-khaki      = '#ccb1a3'
-mist       = '#95a69e'
-arequipe   = '#bfa173'
-olive      = '#b3b36b'
-tan        = '#99857a'
-terracota  = '#996b6b'
-umber      = '#806f4c'
-slate      = '#518c83'
-steel      = '#517373'
+khaki     = '#ccb1a3'
+mist      = '#95a69e'
+arequipe  = '#b39b6b'
+olive     = '#b3b36b'
+tan       = '#99857a'
+terracota = '#996b6b'
+umber     = '#806f4c'
+slate     = '#518c83'
+steel     = '#517373'
 
 # Neutral backgrounds.
 bg00 = "#131d1f"
@@ -215,7 +216,8 @@ bg40 = "#3c415c"
 bg45 = "#414463"
 
 # Colored backgrounds.
-RedBg    = "#453434"
-YellowBg = "#403f37"
-GreenBg  = "#3c4841"
-blueBg   = "#334455"
+yellowBg  = "#403f37" # For warnings
+redBg     = "#453434" # For errors
+blueBg    = "#334455" # For info
+magentaBg = "#473947" # For hits
+greenBg   = "#3c4841" # For success
