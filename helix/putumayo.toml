@@ -12,7 +12,7 @@
 
 "ui.background" = { bg = "bg10" } # Default background color.
 "ui.background.separator" = { fg = "nightfog" } # Picker separator below input line.
-"ui.window" = { fg = "bg10", bg = "bg00" } # Window border between splits.
+"ui.window" = { fg = "bg00", bg = "bg00" } # Window border between splits.
 "ui.gutter" = { fg = "nightfog" } # Left gutter for diagnostics and breakpoints.
 
 "ui.text" = { fg = "mist" } # Default text color.
@@ -73,10 +73,10 @@
 "hint" = { fg = "amethyst" } # Diagnostics hint (gutter)
 
 # Don't add fg and bg here in order to keep code's original highlights.
-"diagnostic.warning" = { bg = "yellowBg", underline = { color = "amber", style = "curl" } } # Diagnostics warning (editing area)
-"diagnostic.error" = { bg = "redBg", underline = { color = "cherry", style = "curl" } } # Diagnostics error (editing area)
-"diagnostic.info" = { bg = "blueBg", underline = { color = "denim", style = "curl" } } # Diagnostics info (editing area)
-"diagnostic.hint" = { bg = "magentaBg", underline = { color = "amethyst", style = "curl" } } # Diagnostics hint (editing area)
+"diagnostic.warning" = { underline = { color = "amber", style = "curl" } } # Diagnostics warning (editing area)
+"diagnostic.error" = { underline = { color = "cherry", style = "curl" } } # Diagnostics error (editing area)
+"diagnostic.info" = { underline = { color = "denim", style = "curl" } } # Diagnostics info (editing area)
+"diagnostic.hint" = { underline = { color = "amethyst", style = "curl" } } # Diagnostics hint (editing area)
 
 # ==========================================================
 # DIFF
