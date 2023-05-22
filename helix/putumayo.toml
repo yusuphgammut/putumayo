@@ -1,10 +1,13 @@
-#    \\     _____ _____ _____ _____ _____ _____ __ __ _____ 
-#    ('>   |  _  |  |  |_   _|  |  |     |  _  |  |  |     |
-#    /)    |   __|  |  | | | |  |  | | | |     |_   _|  |  |
-# __/++___ |__|  |_____| |_| |_____|_|_|_|__|__| |_| |_____|
-#   ||                                             Moonlight
+# ┌─────────┐                                                     
+# │   \\    │    ┌─────┬──┬──┬─────┬──┬──┬─────┬─────┬──┬──┬─────┐
+# │   (•>   │    │  ─  │  │  ├─┐ ┌─┤  │  │     │  ─  │  ╵  │  ╷  │
+# │   //)   │    │  ┌──┤     │ │ │ │     │ │ │ │  ╷  ├─┐ ┌─┤  ╵  │
+# │----++---│    └──┘  └─────┘ └─┘ └─────┴─┴─┴─┴──┴──┘ └─┘ └─────┘
+# │   ||    │    *  M  I  D  N  I  G  H  T                        
+# └─────────┘                                                     
 
-# Author: github.com/yusuphgammut
+# Author: Yusuph Gammut (github.com/yusuphgammut)
+# Variant: Midnight
 # Version: 0.1.0
 
 # ==========================================================
@@ -173,7 +176,7 @@
 
 # ==========================================================
 # PALETTE
-# Collor palette variable definitions.
+# Color palette variable definitions.
 # ==========================================================
 
 [palette]
@@ -206,20 +209,20 @@ slate     = '#518c83'
 steel     = '#517373'
 
 # Neutral backgrounds.
-bg00 = "#131d1f"
-bg05 = "#172226"
-bg10 = "#1c282e"
-bg15 = "#212d36"
-bg20 = "#25313d"
-bg25 = "#2a3545"
-bg30 = "#2f394d"
-bg35 = "#363e54"
-bg40 = "#3c415c"
-bg45 = "#414463"
+bg00 = '#131d1f'
+bg05 = '#172226'
+bg10 = '#1c282e'
+bg15 = '#212d36'
+bg20 = '#25313d'
+bg25 = '#2a3545'
+bg30 = '#2f394d'
+bg35 = '#363e54'
+bg40 = '#3c415c'
+bg45 = '#414463'
 
 # Colored backgrounds.
-yellowBg  = "#403f37" # For warnings
-redBg     = "#453434" # For errors
-blueBg    = "#334455" # For info
-magentaBg = "#473947" # For hits
-greenBg   = "#3c4841" # For success
+yellowBg  = '#403f37' # For warnings
+redBg     = '#453434' # For errors
+blueBg    = '#334455' # For info
+magentaBg = '#473947' # For hints
+greenBg   = '#3c4841' # For success

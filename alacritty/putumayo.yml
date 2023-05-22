@@ -1,16 +1,23 @@
-#    \\     _____ _____ _____ _____ _____ _____ __ __ _____ 
-#    ('>   |  _  |  |  |_   _|  |  |     |  _  |  |  |     |
-#    /)    |   __|  |  | | | |  |  | | | |     |_   _|  |  |
-# __/++___ |__|  |_____| |_| |_____|_|_|_|__|__| |_| |_____|
-#   ||                                             Moonlight
+# ┌─────────┐                                                     
+# │   \\    │    ┌─────┬──┬──┬─────┬──┬──┬─────┬─────┬──┬──┬─────┐
+# │   (•>   │    │  ─  │  │  ├─┐ ┌─┤  │  │     │  ─  │  ╵  │  ╷  │
+# │   //)   │    │  ┌──┤     │ │ │ │     │ │ │ │  ╷  ├─┐ ┌─┤  ╵  │
+# │----++---│    └──┘  └─────┘ └─┘ └─────┴─┴─┴─┴──┴──┘ └─┘ └─────┘
+# │   ||    │    *  M  I  D  N  I  G  H  T                        
+# └─────────┘                                                     
 
-# Author: github.com/yusuphgammut
+# Author: Yusuph Gammut (github.com/yusuphgammut)
+# Variant: Midnight
 # Version: 0.1.0
 
 # ==========================================================
+# COLOR SCHEME
+# Here we are defining a YAML anchor called "putumayo". You can add this at the
+# beginning of your config file.
+# https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/
+# ==========================================================
 
-# Here we are defining a YAML anchor called "putumayo".
-schemes:
+themes:
   putumayo: &putumayo
     primary:
       background: '#1c282e' # bg10
@@ -53,7 +60,10 @@ schemes:
       blue: '#99a9ff' # denim -- same as normal
       white: '#ccb1a3' # khaki
 
-# Here we are applying the "putumayo" anchor to the `color` config property.
-colors: *putumayo
+# ==========================================================
+# REMAINING CONFIG
+# You can add the rest of your Alacritty configuration down here. In the
+# `colors` config property you apply the putumayo anchor defined above.
+# ==========================================================
 
-# You can add the rest of your Alacritty config down here.
+colors: *putumayo
