@@ -27,6 +27,9 @@
 
 "ui.cursor" = { fg = "khaki", bg = "terracota" } # Fallback cursor colour, non-primary cursors when there are multiple (shift-c).
 "ui.cursor.primary" = { fg = "bg00", bg = "khaki" } # The primary cursor when there are multiple (shift-c).
+"ui.cursor.primary.normal" = { fg = "bg00", bg = "khaki" } # The primary cursor in normal mode when there are multiple (shift-c).
+"ui.cursor.primary.insert" = { fg = "bg00", bg = "forest" } # The primary cursor in insert mode when there are multiple (shift-c).
+"ui.cursor.primary.select" = { fg = "bg00", bg = "cherry" } # The primary cursor in select mode when there are multiple (shift-c).
 "ui.cursor.match" = { fg = "beige", modifiers = ["bold"] } # The matching parentheses of that under the cursor.
 
 "ui.selection" = { bg = "bg35" } # All currently selected text.
@@ -48,9 +51,9 @@
 
 "ui.statusline" = { fg = "mist", bg = "bg00" } # Status line.
 "ui.statusline.inactive" = { fg = "nightfog", bg = "bg15" } # Status line in unfocused windows.
-"ui.statusline.normal" = { fg = "bg00", bg = "lichen", modifiers = ["bold"] } # Statusline mode during normal mode (only if editor.color-modes is enabled).
-"ui.statusline.insert" = { fg = "bg00", bg = "amber", modifiers = ["bold"] } # Statusline mode during insert mode (only if editor.color-modes is enabled).
-"ui.statusline.select" = { fg = "bg00", bg = "amethyst", modifiers = ["bold"] } # Statusline mode during select mode (only if editor.color-modes is enabled).
+"ui.statusline.normal" = { fg = "bg00", bg = "khaki", modifiers = ["bold"] } # Statusline mode during normal mode (only if editor.color-modes is enabled).
+"ui.statusline.insert" = { fg = "bg00", bg = "forest", modifiers = ["bold"] } # Statusline mode during insert mode (only if editor.color-modes is enabled).
+"ui.statusline.select" = { fg = "bg00", bg = "cherry", modifiers = ["bold"] } # Statusline mode during select mode (only if editor.color-modes is enabled).
 
 "ui.help" = { fg = "mist", bg = "bg25" } # Description box for commands.
 "ui.menu" = { fg = "mist", bg = "bg25" } # Code and command completion menus.
