@@ -140,7 +140,7 @@
 "keyword.control.exception" = { fg = "amethyst" } # `try`, `catch`, `raise`/`throw` and related.
 "keyword.operator" = { fg = "amethyst", modifiers = ["bold"] } # 'or', 'and', 'in'.
 "keyword.directive" = { fg = "amethyst" } # Preprocessor directives (#if in C...).
-"keyword.function" = { fg = "amethyst" } # The keyword to define a funtion: 'def', 'fun', 'fn'.
+"keyword.function" = { fg = "denim" } # The keyword to define a funtion: 'def', 'fun', 'fn'.
 "keyword.storage" = { fg = "denim" } # Keywords describing how things are stored
 "keyword.storage.type" = { fg = "denim" } #  The type of something, class, function, var, let, etc.
 "keyword.storage.modifier" = { fg = "denim" } # Storage modifiers like static, mut, const, ref, etc.
