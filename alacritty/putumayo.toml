@@ -1,0 +1,69 @@
+#  ┌─────────┐  ┌───┐ ┬   ┬ ┌─┬─┐ ┬   ┬  
+#  │   \\    │  ├───┘ │   │   │   │   │  
+#  │   (•>   │  ┴     └───┘   ┴   └───┘  
+#  │   //)   │  ───────────────────────  
+#  │ ---++-- │  ┌─┬─┐ ┌───┐ ┬   ┬ ┌───┐  
+#  │   ||    │  │ ╵ │ ├───┤ └─┬─┘ │   │  
+#  └─────────┘  ┴   ┴ ┴   ┴   ┴   └───┘  
+
+# Author: Yusuph Gammut (github.com/yusuphgammut)
+# Variant: Midnight
+# Version: 0.1.0
+
+# ==========================================================
+# COLOR SCHEME
+# The `colors` key stores values related to the theme.
+# ==========================================================
+
+[colors.primary]
+background = "#1c282e" # bg10
+foreground = "#95a69e" # mist
+
+[colors.normal]
+black   = "#3d5866" # nightfog
+magenta = "#c689e6" # amethyst
+red     = "#e67d7d" # cherry
+yellow  = "#d9d282" # amber
+green   = "#aecc8f" # paramo
+cyan    = "#8fccb8" # lichen
+blue    = "#99a9ff" # denim
+white   = "#f2d2c2" # beige
+
+[colors.bright]
+black   = "#517373" # steel
+magenta = "#d977b7" # fuchia
+red     = "#e67d7d" # cherry -- same as normal
+yellow  = "#d9916d" # orange
+green   = "#85cc85" # forest
+cyan    = "#70bccc" # teal
+blue    = "#99a9ff" # denim -- same as normal
+white   = "#ccb1a3" # khaki
+
+[colors.cursor]
+text   = "#131d1f" # bg00
+cursor = "#ccb1a3" # khaki
+
+[colors.vi_mode_cursor]
+text   = "#131d1f" # bg00
+cursor = "#ccb1a3" # khaki
+
+[colors.selection]
+text        ="#ccb1a3" # khaki
+background  ="#363e54" # bg35
+
+[colors.search.matches]
+foreground = "#1c282e" # bg10
+background = "#806f4c" # umber
+
+[colors.search.focused_match]
+foreground = "#131d1f" # bg00
+background = "#f2d2c2" # beige
+
+[colors.footer_bar]
+foreground = "#131d1f" # bg00
+background = "#ccb1a3" # khaki
+
+# ==========================================================
+# REMAINING CONFIG
+# You can add the rest of your Alacritty configuration down here.
+# ==========================================================

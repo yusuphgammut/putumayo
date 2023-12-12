@@ -92,7 +92,7 @@
 # ==========================================================
 
 "diff.plus" = "forest" # Additions.
-"diff.minus" = "red" # Deletions.
+"diff.minus" = "cherry" # Deletions.
 "diff.delta" = "amber" # Modifications.
 "diff.delta.moved" = "denim" # Renamed or moved files.
 
