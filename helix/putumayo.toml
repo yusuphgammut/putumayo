@@ -114,7 +114,7 @@
 "function.method" = { fg = "paramo" } # Class / Struct methods.
 
 "tag" = { fg = "forest" } # As in <body> for html, css tags. Note that JSX tags are styled using constructor.
-"attribute" = { fg = "olive" } # Class attributes, html tag attributes. Note that JSX attributes are styles using variable.other.member.
+"attribute" = { fg = "olive" } # Class attributes, html tag attributes. Note that JSX attributes are styled using variable.other.member.
 "namespace" = { fg = "olive" } # Namespace or module identifier.
 "constructor" = { fg = "paramo" } # Constructor method for a class or struct.
 "label" = { fg = "denim" } # lifetimes - Loop labels, among other things.
@@ -150,8 +150,8 @@
 "constant.builtin" = { fg = "orange" } # Special constants like `true`, `false`, `none`, etc.
 "constant.builtin.boolean" = { fg = "orange" } # True or False.
 "constant.character" = { fg = "orange" } # Constant of character type.
-"constant.character.escape" = { fg = "orange", modifiers = ["bold"] } # escape codes like \n.
-"constant.numeric"  = { fg = "orange" } # constant integer or float value.
+"constant.character.escape" = { fg = "orange", modifiers = ["bold"] } # Escape codes like "\n".
+"constant.numeric" = { fg = "orange" } # Constant integer or float value.
 
 # Comments
 "comment" = { fg = "steel" } # This is a comment.

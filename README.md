@@ -56,112 +56,693 @@ This was achieved by observing the following principles:
 
 - There should be a design guide to ensure that frequent/large elements are styled using calming/muted tones, while occasional/small elements are styled with distinctive/saturated ones, to aim for a unique balance between sobriety and enthusiasm.
 
-| Midnight | Sunlight |
-| -------- | -------- |
-| ![#3d5866](https://fakeimg.pl/12x12/3d5866/3d5866/ "nightfog - #3d5866") __nightfog__ `#3d5866` `O/S`<br />__UI usage:__ Terminal black. Line numbers. Inactive text. Window/panel separators. Prominent hidden text.<br />__Code usage:__ No usage. |  |
-| ![#f2d2c2](https://fakeimg.pl/12x12/f2d2c2/f2d2c2/ "beige - #f2d2c2") __beige__ `#f2d2c2` `O/S`<br />__UI usage:__ Terminal white.<br />__Code usage:__ Highlights. |  |
-![#c689e6](https://fakeimg.pl/12x12/c689e6/c689e6/ "amethyst - #c689e6") __amethyst__ `#c689e6` `O/S`
-- __UI usage:__ Terminal magenta. Hint text.
-- __Code usage:__ All keywords except storage-related ones, like `if`, `else`, `for`, `while`, `import`, `export`, `return`, `try`, `catch`, `or`, `and`, `in`, `of`, `from`, etc.
-![#e67d7d](https://fakeimg.pl/12x12/e67d7d/e67d7d/ "cherry - #e67d7d") __cherry__ `#e67d7d` `O/S`
-- __UI usage:__ Terminal red. Error text. Select/visual mode in modal editors.
-- __Code usage:__ Bold text in markup.
-![#d9d282](https://fakeimg.pl/12x12/d9d282/d9d282/ "amber - #d9d282") __amber__ `#d9d282` `O/S`
-- __UI usage:__ Terminal yellow.
-- __Code usage:__ Bla bla bla.
-![#aecc8f](https://fakeimg.pl/12x12/aecc8f/aecc8f/ "paramo - #aecc8f") __paramo__ `#aecc8f` `F/L`
-- __UI usage:__ Terminal green.
-- __Code usage:__ Bla bla bla.
-![#8fccb8](https://fakeimg.pl/12x12/8fccb8/8fccb8/ "lichen - #8fccb8") __lichen__ `#8fccb8` `F/L`
-- __UI usage:__ Terminal cyan.
-- __Code usage:__ Bla bla bla.
-![#99a9ff](https://fakeimg.pl/12x12/99a9ff/99a9ff/ "denim - #99a9ff") __denim__ `#99a9ff` `O/S`
-- __UI usage:__ Terminal blue.
-- __Code usage:__ All data and procedure storage-related keywords like `var`, `let`, `const`, `mut`, `ref`, `def`, `class`, `function`, etc.
-![#d977b7](https://fakeimg.pl/12x12/d977b7/d977b7/ "fuchia - #d977b7") __fuchia__ `#d977b7` `O/S`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#d9916d](https://fakeimg.pl/12x12/d9916d/d9916d/ "orange - #d9916d") __orange__ `#d9916d` `O/S`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#85cc85](https://fakeimg.pl/12x12/85cc85/85cc85/ "forest - #85cc85") __forest__ `#85cc85` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#70bccc](https://fakeimg.pl/12x12/70bccc/70bccc/ "teal - #70bccc") __teal__ `#70bccc` `O/S`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#ccb1a3](https://fakeimg.pl/12x12/ccb1a3/ccb1a3/ "khaki - #ccb1a3") __khaki__ `#ccb1a3` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#95a69e](https://fakeimg.pl/12x12/95a69e/95a69e/ "mist - #95a69e") __mist__ `#95a69e` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#b39b6b](https://fakeimg.pl/12x12/b39b6b/b39b6b/ "arequipe - #b39b6b") __arequipe__ `#b39b6b` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#b3b36b](https://fakeimg.pl/12x12/b3b36b/b3b36b/ "olive - #b3b36b") __olive__ `#b3b36b` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#99857a](https://fakeimg.pl/12x12/99857a/99857a/ "tan - #99857a") __tan__ `#99857a` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#996b6b](https://fakeimg.pl/12x12/996b6b/996b6b/ "terracota - #996b6b") __terracota__ `#996b6b` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#806f4c](https://fakeimg.pl/12x12/806f4c/806f4c/ "umber - #806f4c") __umber__ `#806f4c` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#518c83](https://fakeimg.pl/12x12/518c83/518c83/ "slate - #518c83") __slate__ `#518c83` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#517373](https://fakeimg.pl/12x12/517373/517373/ "steel - #517373") __steel__ `#517373` `F/L`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#131d1f](https://fakeimg.pl/12x12/131d1f/131d1f/ "bg00 - #131d1f") __bg00__ `#131d1f`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#172226](https://fakeimg.pl/12x12/172226/172226/ "bg05 - #172226") __bg05__ `#172226`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#1c282e](https://fakeimg.pl/12x12/1c282e/1c282e/ "bg10 - #1c282e") __bg10__ `#1c282e`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#212d36](https://fakeimg.pl/12x12/212d36/212d36/ "bg15 - #212d36") __bg15__ `#212d36`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#25313d](https://fakeimg.pl/12x12/25313d/25313d/ "bg20 - #25313d") __bg20__ `#25313d`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#2a3545](https://fakeimg.pl/12x12/2a3545/2a3545/ "bg25 - #2a3545") __bg25__ `#2a3545`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#2f394d](https://fakeimg.pl/12x12/2f394d/2f394d/ "bg30 - #2f394d") __bg30__ `#2f394d`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#363e54](https://fakeimg.pl/12x12/363e54/363e54/ "bg35 - #363e54") __bg35__ `#363e54`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#3c415c](https://fakeimg.pl/12x12/3c415c/3c415c/ "bg40 - #3c415c") __bg40__ `#3c415c`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#414463](https://fakeimg.pl/12x12/414463/414463/ "bg45 - #414463") __bg45__ `#414463`
-- __UI usage:__ Bla bla bla.
-- __Code usage:__ Bla bla bla.
-![#403f37](https://fakeimg.pl/12x12/403f37/403f37/ "yellowBg - #403f37") __yellowBg__ `#403f37`
-- __UI usage:__ Warning background.
-- __Code usage:__ Bla bla bla.
-![#453434](https://fakeimg.pl/12x12/453434/453434/ "redBg - #453434") __redBg__ `#453434`
-- __UI usage:__ Error background.
-- __Code usage:__ Bla bla bla.
-![#334455](https://fakeimg.pl/12x12/334455/334455/ "blueBg - #334455") __blueBg__ `#334455`
-- __UI usage:__ Info background.
-- __Code usage:__ Bla bla bla.
-![#473947](https://fakeimg.pl/12x12/473947/473947/ "magentaBg - #473947") __magentaBg__ `#473947`
-- __UI usage:__ Hints background.
-- __Code usage:__ Bla bla bla.
-![#3c4841](https://fakeimg.pl/12x12/3c4841/3c4841/ "greenBg - #3c4841") __greenBg__ `#3c4841`
-- __UI usage:__ Success background.
-- __Code usage:__ Bla bla bla.
+<table>
+    <tr><th>Midnight</th><th>Sunlight</th></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/C689E6/C689E6/" width="12" height="12" />
+        <strong>"Amethyst"</strong> <code>"O/S"</code></br>
+        <code>#C689E6</code></br>
+        <code>rgb(198,137,230)</code></br>
+        <code>hsl(279,65%,72%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal magenta. Hint texts and markers."</li>
+            <li><strong>"All keywords like <code>if</code>, <code>else</code>, <code>for</code>, <code>while</code>, <code>import</code>, <code>export</code>, <code>return</code>, <code>try</code>, <code>catch</code>, <code>or</code>, <code>and</code>, <code>in</code>, <code>of</code>, <code>from</code>, etc., except procedure-related and storage-related ones (see denim/unknown swatch)."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/E67D7D/E67D7D/" width="12" height="12" />
+        <strong>"Cherry"</strong> <code>"O/S"</code></br>
+        <code>#E67D7D</code></br>
+        <code>rgb(230,125,125)</code></br>
+        <code>hsl(0,68%,70%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal red. Error texts and markers. Select/visual mode indicators in modal editors. Diff deletion indicators."</li>
+            <li><strong>"Markup bold texts."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/D9D282/D9D282/" width="12" height="12" />
+        <strong>"Amber"</strong> <code>"O/S"</code></br>
+        <code>#D9D282</code></br>
+        <code>rgb(217,210,130)</code></br>
+        <code>hsl(55,53%,68%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal yellow. Warning texts and markers. Diff modification indicators."</li>
+            <li><strong>"Builtin varable and function identifiers. Markup headings."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/AECC8F/AECC8F/" width="12" height="12" />
+        <strong>"Paramo"</strong> <code>"F/L"</code></br>
+        <code>#AECC8F</code></br>
+        <code>rgb(174,204,143)</code></br>
+        <code>hsl(90,37%,68%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal green."</li>
+            <li><strong>"In general, used for precedure identifiers like function, method, constructor, and macro names, except builtin ones (see amber swatch)."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/8FCCB8/8FCCB8/" width="12" height="12" />
+        <strong>"Lichen"</strong> <code>"F/L"</code></br>
+        <code>#8FCCB8</code></br>
+        <code>rgb(143,204,184)</code></br>
+        <code>hsl(160,37%,68%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal cyan."</li>
+            <li><strong>"In general, used for variable identifiers like standard variable, function parameter, and user-defined constant names, except builtin ones (see amber swatch)."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/99A9FF/99A9FF/" width="12" height="12" />
+        <strong>"Denim"</strong> <code>"O/S"</code></br>
+        <code>#99A9FF</code></br>
+        <code>rgb(153,169,255)</code></br>
+        <code>hsl(231,100%,80%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal blue. Info texts and markers. Info indicators. Diff moved indicators."</li>
+            <li><strong>"All procedure-related and storage-related keywords like <code>var</code>, <code>let</code>, <code>const</code>, <code>mut</code>, <code>ref</code>, <code>def</code>, <code>class</code>, <code>function</code>, etc."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/3D5866/3D5866/" width="12" height="12" />
+        <strong>"Nightfog"</strong> <code>"O/S"</code></br>
+        <code>#3D5866</code></br>
+        <code>rgb(61,88,102)</code></br>
+        <code>hsl(200,25%,32%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal black. Line numbers. Inactive text. Window/panel separators. Prominent hidden text."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/F2D2C2/F2D2C2/" width="12" height="12" />
+        <strong>"Beige"</strong> <code>"O/S"</code></br>
+        <code>#F2D2C2</code></br>
+        <code>rgb(242,210,194)</code></br>
+        <code>hsl(20,65%,85%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Terminal white."</li>
+            <li><strong>"Highlights."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/D977B7/D977B7/" width="12" height="12" />
+        <strong>"Fuchia"</strong> <code>"O/S"</code></br>
+        <code>#D977B7</code></br>
+        <code>rgb(217,119,183)</code></br>
+        <code>hsl(321,56%,66%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No useage."</li>
+            <li><strong>"Logical, mathematical, and other operators. Special symbols like <code>?</code> in Rust, <code>...</code> in Hare. Markup list dashes."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/D9916D/D9916D/" width="12" height="12" />
+        <strong>"Orange"</strong> <code>"O/S"</code></br>
+        <code>#D9916D</code></br>
+        <code>rgb(217,145,109)</code></br>
+        <code>hsl(20,59%,64%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"Character, numeric, and special constant literals like <code>true</code>, <code>false</code>, <code>none</code>, etc. Other special constants like escape codes. Markup italic text."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/85CC85/85CC85/" width="12" height="12" />
+        <strong>"Forest"</strong> <code>"O/S"</code></br>
+        <code>#85CC85</code></br>
+        <code>rgb(133,204,133)</code></br>
+        <code>hsl(120,41%,66%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Insert mode indicators in modal editors. Diff addition indicators."</li>
+            <li><strong>"HTML/XML tag names (note that JSX tag names might be styled using constructor assigned swatches)."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/70BCCC/70BCCC/" width="12" height="12" />
+        <strong>"Teal"</strong> <code>"O/S"</code></br>
+        <code>#70BCCC</code></br>
+        <code>rgb(112,188,204)</code></br>
+        <code>hsl(190,47%,62%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"Type identifiers including user-defined and builtin. Markup quotes."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/CCB1A3/CCB1A3/" width="12" height="12" />
+        <strong>"Khaki"</strong> <code>"O/S"</code></br>
+        <code>#CCB1A3</code></br>
+        <code>rgb(204,177,163)</code></br>
+        <code>hsl(20,29%,72%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Normal mode indicators in modal editors. Primary cursor background."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/95A69E/95A69E/" width="12" height="12" />
+        <strong>"Mist"</strong> <code>"F/L"</code></br>
+        <code>#95A69E</code></br>
+        <code>rgb(149,166,158)</code></br>
+        <code>hsl(152,9%,62%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Default text. Current (highlighted) line numbers text."</li>
+            <li><strong>"Default text."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/B39B6B/B39B6B/" width="12" height="12" />
+        <strong>"Arequipe"</strong> <code>"F/L"</code></br>
+        <code>#B39B6B</code></br>
+        <code>rgb(179,155,107)</code></br>
+        <code>hsl(40,32%,56%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"String literals. Regular expression literals. URLs. Markup links."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/B3B36B/B3B36B/" width="12" height="12" />
+        <strong>"Olive"</strong> <code>"F/L"</code></br>
+        <code>#B3B36B</code></br>
+        <code>rgb(179,179,107)</code></br>
+        <code>hsl(60,32%,56%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"HTML/XML tag attributes. Class attributes (note that JSX tag attributes might be styled using method assigned swatches). Markup inline code block."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/99857A/99857A/" width="12" height="12" />
+        <strong>"Tan"</strong> <code>"F/L"</code></br>
+        <code>#99857A</code></br>
+        <code>rgb(153,133,122)</code></br>
+        <code>hsl(21,13%,54%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Auxiliar UI text and decorations."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/996B6B/996B6B/" width="12" height="12" />
+        <strong>"Terracota"</strong> <code>"F/L"</code></br>
+        <code>#996B6B</code></br>
+        <code>rgb(153,107,107)</code></br>
+        <code>hsl(0,18%,51%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Secondary cursor background."</li>
+            <li><strong>"Commas, colons and other punctuation delimiters depending on the language."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/806F4C/806F4C/" width="12" height="12" />
+        <strong>"Umber"</strong> <code>"F/L"</code></br>
+        <code>#806F4C</code></br>
+        <code>rgb(128,111,76)</code></br>
+        <code>hsl(40,25%,40%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"Any punctuation symbol including brackets like parentheses, angle brackets, etc. but except punctuation delimiters (see terracota swatch) and special punctuation (see slate swatch)."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/518C83/518C83/" width="12" height="12" />
+        <strong>"Slate"</strong> <code>"F/L"</code></br>
+        <code>#518C83</code></br>
+        <code>rgb(81,140,131)</code></br>
+        <code>hsl(171,27%,43%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Inlay hints."</li>
+            <li><strong>"Special punctuation like string interpolation brackets, etc. Markup strikethrough text."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/517373/517373/" width="12" height="12" />
+        <strong>"Steel"</strong> <code>"F/L"</code></br>
+        <code>#517373</code></br>
+        <code>rgb(81,115,115)</code></br>
+        <code>hsl(180,17%,38%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Interactive text (virtual text)."</li>
+            <li><strong>"Comments including doc comments as well."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/131D1F/131D1F/" width="12" height="12" />
+        <strong>"Bg00"</strong> <code>"O/S"</code></br>
+        <code>#131D1F</code></br>
+        <code>rgb(19,29,31)</code></br>
+        <code>hsl(190,24%,10%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Pane borders. Status line background. Primary cursor text."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/172226/172226/" width="12" height="12" />
+        <strong>"Bg05"</strong> <code>"O/S"</code></br>
+        <code>#172226</code></br>
+        <code>rgb(23,34,38)</code></br>
+        <code>hsl(196,25%,12%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/1C282E/1C282E/" width="12" height="12" />
+        <strong>"Bg10"</strong> <code>"F/L"</code></br>
+        <code>#1C282E</code></br>
+        <code>rgb(28,40,46)</code></br>
+        <code>hsl(200,24%,15%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Main background."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/212D36/212D36/" width="12" height="12" />
+        <strong>"Bg15"</strong> <code>"O/S"</code></br>
+        <code>#212D36</code></br>
+        <code>rgb(33,45,54)</code></br>
+        <code>hsl(206,24%,17%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Secondary special line and column indicators like cursorline, columnline, and virtual rulers, except primary ones (see bg20 swatch)."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/25313D/25313D/" width="12" height="12" />
+        <strong>"Bg20"</strong> <code>"O/S"</code></br>
+        <code>#25313D</code></br>
+        <code>rgb(37,49,61)</code></br>
+        <code>hsl(210,24%,19%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Primary special line and column indicators like cursorline, columnline except secondary ones (see bg15 swatch)."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/2A3545/2A3545/" width="12" height="12" />
+        <strong>"Bg25"</strong> <code>"F/L"</code></br>
+        <code>#2A3545</code></br>
+        <code>rgb(42,53,69)</code></br>
+        <code>hsl(216,24%,22%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Popups and dialog boxes background."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/2F394D/2F394D/" width="12" height="12" />
+        <strong>"Bg30"</strong> <code>"O/S"</code></br>
+        <code>#2F394D</code></br>
+        <code>rgb(47,57,77)</code></br>
+        <code>hsl(220,24%,24%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/363E54/363E54/" width="12" height="12" />
+        <strong>"Bg35"</strong> <code>"F/L"</code></br>
+        <code>#363E54</code></br>
+        <code>rgb(54,62,84)</code></br>
+        <code>hsl(224,22%,27%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"All selected text backgrounds including primary and secondary."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/3C415C/3C415C/" width="12" height="12" />
+        <strong>"Bg40"</strong> <code>"F/L"</code></br>
+        <code>#3C415C</code></br>
+        <code>rgb(60,65,92)</code></br>
+        <code>hsl(231,21%,30%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"F/L"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"No usage."</li>
+            <li><strong>"Special characters like whitespace, indent, and end of line markers."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/414463/414463/" width="12" height="12" />
+        <strong>"Bg45"</strong> <code>"O/S"</code></br>
+        <code>#414463</code></br>
+        <code>rgb(65,68,99)</code></br>
+        <code>hsl(235,21%,32%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Highlighted lines background when selected by the user. Scroll bar background."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/403F37/403F37/" width="12" height="12" />
+        <strong>"YellowBg"</strong> <code>"O/S"</code></br>
+        <code>#403F37</code></br>
+        <code>rgb(64,63,55)</code></br>
+        <code>hsl(53,8%,23%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Background for text notifying warnings to the user."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/453434/453434/" width="12" height="12" />
+        <strong>"RedBg"</strong> <code>"O/S"</code></br>
+        <code>#453434</code></br>
+        <code>rgb(69,52,52)</code></br>
+        <code>hsl(0,14%,24%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Background for text notifying errors to the user."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/334455/334455/" width="12" height="12" />
+        <strong>"BlueBg"</strong> <code>"O/S"</code></br>
+        <code>#334455</code></br>
+        <code>rgb(51,68,85)</code></br>
+        <code>hsl(210,25%,27%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Background for text notifying neutral info to the user."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/473947/473947/" width="12" height="12" />
+        <strong>"MagentaBg"</strong> <code>"O/S"</code></br>
+        <code>#473947</code></br>
+        <code>rgb(71,57,71)</code></br>
+        <code>hsl(300,11%,25%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Background for text notifying hints to the user."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+    <tr><td>
+        <img src="https://fakeimg.pl/12x12/3C4841/3C4841/" width="12" height="12" />
+        <strong>"GreenBg"</strong> <code>"O/S"</code></br>
+        <code>#3C4841</code></br>
+        <code>rgb(60,72,65)</code></br>
+        <code>hsl(145,9%,26%)</code></br>
+    </td><td>
+        <img src="https://fakeimg.pl/12x12/888888/888888/" width="12" height="12" />
+        <strong>"Unknown"</strong> <code>"O/S"</code> </br>
+        <code>#888888</code></br>
+        <code>rgb(136,136,136)</code></br>
+        <code>hsl(0,0%,53%)</code></br>
+    </td></tr>
+    <tr><td colspan="2">
+        <ul>
+            <li><strong>"Background for text notifying success status to the user."</li>
+            <li><strong>"No usage."</li>
+        </ul>
+    </td></tr>
+</table>
 
 <!-- Swatches -->
 [nightfog]: https://fakeimg.pl/18x18/3d5866/3d5866/ "nightfog - #3d5866"
