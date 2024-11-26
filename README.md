@@ -2,9 +2,9 @@
 
 <h1>
 <picture id="putumayo">
-  <source media="(prefers-color-scheme: dark)" srcset="_assets/gh-header-midnight.svg">
-  <source media="(prefers-color-scheme: light)" srcset="_assets/gh-header-midnight.svg">
-  <img alt="Putumayo" src="_assets/gh-header-midnight.png">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/gh-header-midnight.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/gh-header-midnight.svg">
+  <img alt="Putumayo" src="assets/gh-header-midnight.png">
 </picture>
 </h1>
 
